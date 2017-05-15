@@ -1,0 +1,54 @@
+{
+  "simulation": "simulations.NewUserSimulation",
+  "simulationId": "newusersimulation",
+  "start": 1487742406731,
+  "description": "",
+  "scenarios": ["Login", "New User Scenaio"],
+  "assertions": [
+{
+  "path": "Login",
+  "target": "count of successful requests",
+  "condition": "is greater than or equal to",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Login: count of successful requests is greater than or equal to 0.0",
+  "actualValue": 1.0]
+},
+{
+  "path": "Check User",
+  "target": "count of successful requests",
+  "condition": "is greater than or equal to",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Check User: count of successful requests is greater than or equal to 0.0",
+  "actualValue": 2.0]
+},
+{
+  "path": "Create New User",
+  "target": "count of successful requests",
+  "condition": "is greater than or equal to",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Create New User: count of successful requests is greater than or equal to 0.0",
+  "actualValue": 2.0]
+},
+{
+  "path": "Edit User",
+  "target": "count of successful requests",
+  "condition": "is greater than or equal to",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Edit User: count of successful requests is greater than or equal to 0.0",
+  "actualValue": 2.0]
+},
+{
+  "path": "Delete User",
+  "target": "count of successful requests",
+  "condition": "is greater than or equal to",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Delete User: count of successful requests is greater than or equal to 0.0",
+  "actualValue": 2.0]
+}
+  ]
+}

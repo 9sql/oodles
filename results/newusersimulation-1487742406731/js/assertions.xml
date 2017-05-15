@@ -1,0 +1,17 @@
+<testsuite name="simulations.NewUserSimulation" tests="5" errors="0" failures="0" time="0">
+<testcase name="Login: count of successful requests is greater than or equal to 0.0" status="true" time="0">
+  <system-out>Login: count of successful requests is greater than or equal to 0.0</system-out>
+</testcase>
+<testcase name="Check User: count of successful requests is greater than or equal to 0.0" status="true" time="0">
+  <system-out>Check User: count of successful requests is greater than or equal to 0.0</system-out>
+</testcase>
+<testcase name="Create New User: count of successful requests is greater than or equal to 0.0" status="true" time="0">
+  <system-out>Create New User: count of successful requests is greater than or equal to 0.0</system-out>
+</testcase>
+<testcase name="Edit User: count of successful requests is greater than or equal to 0.0" status="true" time="0">
+  <system-out>Edit User: count of successful requests is greater than or equal to 0.0</system-out>
+</testcase>
+<testcase name="Delete User: count of successful requests is greater than or equal to 0.0" status="true" time="0">
+  <system-out>Delete User: count of successful requests is greater than or equal to 0.0</system-out>
+</testcase>
+</testsuite>
